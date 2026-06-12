@@ -1,0 +1,32 @@
+.map-wrapper {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.custom-popup {
+  text-align: center;
+  color: #333;
+}
+
+.custom-popup h4 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+}
+
+.custom-popup p {
+  margin: 0 0 12px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.custom-popup button {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+}
+
+/* Overriding leaflet popup to look a bit more modern */
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius-md);
+}
